@@ -4,7 +4,7 @@
  * Fetch user repos
  */
 const getRepos = function() {
-  fetch('https://api.github.com/users/andreacardybailey/repos')
+  fetch('https://api.github.com/users/22940dev/repos')
     .then(response => response.json())
     // 👇 You MUST work with the data HERE 👇
     .then(jsonData => {
